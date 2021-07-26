@@ -1,17 +1,26 @@
 from math import sqrt
 
 
+class Person:
+    def __init__(self):
+        self.__age = 0
 
-__b = 155
+    @property
+    def age(self):
+        print("Это геттер")
+        return self.__age
 
-def __init__(self,b):
-    self._b = b
+    @age.setter
+    def age(self, a):
+        print("Это сеттер")
+        self.__age = a
+
 
 
 
 
 def func1(a):
-    a = str(a)
+    a = a
     print("func1!!!! " + a)
 
 def func2(a):

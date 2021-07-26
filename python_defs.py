@@ -8,15 +8,17 @@ import sys
 # from math import sqr
 
 from math import *
-# from funcs import *
-import funcs
+from funcs import *
+
 
 if __name__ == '__main__':
 
     a = 10
-    # b = 3
+    person1 = Person()
 
-    print(funcs.b)
+    person1.age = 30
+
+    print(person1.age)
 
     # func1("слово 1")
     # func1("слово 2")
