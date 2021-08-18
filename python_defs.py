@@ -2,14 +2,15 @@ import sys
 
 # from funcs import func1
 
+# import funcs
 # import funcs as f
 
 # from funcs import func1
 # from math import sqr
 
-from math import *
-from funcs import *
-
+# from math import *
+from funcs import Person, Animal
+# from math import *
 
 if __name__ == '__main__':
 
@@ -17,8 +18,16 @@ if __name__ == '__main__':
     person1 = Person()
 
     person1.age = 30
-
+    person1.name = "Ivan"
     print(person1.age)
+    print(person1.name)
+
+    animal1 = Animal()
+
+    # a = 9
+    #
+    # print(a)
+    # print()
 
     # func1("слово 1")
     # func1("слово 2")
