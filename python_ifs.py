@@ -1,6 +1,22 @@
-a = 1
-b = 5
+a = 11
+b = 1
 c = 2
+
+
+if (a > b):
+    sum = a + b
+    print(sum)
+    print("A больше")
+    if a==11:
+        print()
+        print("A equals 11")
+elif a < b:
+    sum = a * b
+    print(sum)
+    print("B больше")
+else:
+   print("A и Б равны")
+
 
 
 
@@ -8,7 +24,7 @@ c = 2
 
 
 # if (a > b):
-#     a = a + b;
+#     a = a + b
 #     print(a)
 #     print("A")
 # else:

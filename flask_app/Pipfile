@@ -1,4 +1,0 @@
-[[source]]
-name = "pypi"
-url = "http://localhost:1010"
-verify_ssl

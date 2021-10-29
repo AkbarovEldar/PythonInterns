@@ -1,24 +1,14 @@
 
-#
-# a = "test "
-# b = " another test"
-# int_var = 10
-#
-#
-# print(a + str(int_var) + b)
-# print(a,int_var,b)
-
-
 
 # print("it's a number " + str(int_var))
 
-
-# words = ["word0", "word1", "word2"]
-
-# for i in words:
-#     i = i + " in loop"
-#     print(i)
-
+# number=0
+# nStr = ""
+# for i in range(1,10+1):
+#     nStr+=str(i)
+#     print(nStr)
+    # number+=1
+    # print(number)
 
 # number = 1
 
@@ -30,7 +20,45 @@
 #     number+=2
 #     print(i)
 
-# num = 1
+
+#
+# animals = ["cat", "dog", "cow"]
+#
+#
+# for animal in animals:
+#     animal = animal + " in loop"
+#     print(animal)
+
+
+# numbers = [45,1,567,123]
+# for num in numbers:
+#     if num==567:
+#         break
+#     print(num)
+#
+# print("вне цикла")
+
+# line = "Очень важный текст"
+#
+# for i in line:
+#     print(i + " yes")
+
+
+# num = 0
+# a = 0
+# while a < 10:
+#     a+=1
+#     if a == 4:
+#         continue
+#     print(a)
+
+
+# while True:
+#     num += 1
+#     print(num)
+#     if num >= 10:
+#         break
+
 
 # while num < 10:
 #     num+=1

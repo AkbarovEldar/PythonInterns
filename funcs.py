@@ -6,7 +6,6 @@ class Person:
         self.__age = 0
         self.__name = "No name"
 
-
     @property
     def age(self):
         print("Это геттер")
@@ -30,10 +29,12 @@ class Person:
 class Animal:
     def bark(self):
         print("bark")
+    def meow(self):
+        print("meow")
 
 def func1(a):
-    a = a
-    print("func1!!!! " + a)
+    num = a
+    print("func1!!!! " + str(num))
 
 def func2(a):
     a = str(a)

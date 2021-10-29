@@ -1,15 +1,27 @@
+import sys
+
+# аргументы командной строки
+
+a = int(sys.argv[1])
+print(a)
+print(type(a))
+
+# print('Кол-во аргументов:', len(sys.argv))
+# print('Весь список аргументов:', sys.argv)
+
+# print('Eto A:', a)
 
 
 # int_var = 10
 
-a = 'te"s"t'
-b = "test asdafdgd mskmfslofs sfs'dsfs ghfhg 'hgjghjg"
-
-text = 'eto text v pythone'
-
-
-
-print(text)
+# a = 'te"s"t'
+# b = "test asdafdgd mskmfslofs sfs'dsfs ghfhg 'hgjghjg"
+#
+# text = 'eto text v pythone'
+#
+#
+#
+# print(text)
 
 
 # a = "Hello".upper()
@@ -40,5 +52,6 @@ print(text)
 # a = a.upper()
 #
 # print(a)
+
 
 

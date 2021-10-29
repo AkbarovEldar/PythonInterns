@@ -1,19 +1,31 @@
-import funcs
-from funcs import Person
+# import funcs
+# from funcs import Person
 
 
 
-if __name__=='__main__':
+# if __name__=='__main__':
+#
+#     person1 = Person()
+#
+#     a = Person.age
+#     b = "world"
+#
+#     sum_var = sum(a, b)
+#     print(sum_var)
 
-    person1 = Person()
 
-    a = Person.age
-    b = "world"
+a=(1,45,"string text", True)
 
-    sum_var = sum(a, b)
-    print(sum_var)
+print(a)
 
+# a=[1.5,3,"stroka",5,True,"stroka"]
 
+# a.append(15)
+# a.insert(1,15)
+# a.remove("stroka")
+
+# print(a)
+# print(a[1:3])
 
 
 # a = ["a","c"]
@@ -33,8 +45,10 @@ if __name__=='__main__':
 #
 # print(len(listDiff))
 
-# d = {'d1': 100, 'd2': 2, 'd3': 1, 'd4':4}
-#
+# d = {'key1': 100, 'key2': True, 'key3': 1, 'key4':4}
+# d = {2: 100, 1231: True, 3: 1, 4:400}
+# print(d[2])
+
 # d2 = {'d1':100,'d2': True,'d3':500}
 #
 # print(d2)
@@ -44,12 +58,12 @@ if __name__=='__main__':
 #
 # person1 = {'name': 'Ivan', 'last name':'Ivanov', 'age':30}
 # person2 = {'name': 'Petr', 'last name':'Petrov', 'age':20}
+# # print(person2["name"])
 #
 # people = []
-#
 # people.append(person1)
 # people.append(person2)
-# print(people[1]['name'])
+# print(people[0]['last name'])
 
 
 # print(person1['last name'])

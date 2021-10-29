@@ -1,54 +1,33 @@
-import sys
-
-# from funcs import func1
-
+# import sys
+#
+# # from funcs import func1
+#
 # import funcs
-# import funcs as f
-
-# from funcs import func1
-# from math import sqr
+import funcs as f
+#
+# # from funcs import func1
+# # from math import sqr
+#
+# # from math import *
+# from funcs import Person, Animal
 
 # from math import *
-from funcs import Person, Animal
-# from math import *
-
-if __name__ == '__main__':
-
-    a = 10
-    person1 = Person()
-
-    person1.age = 30
-    person1.name = "Ivan"
-    print(person1.age)
-    print(person1.name)
-
-    animal1 = Animal()
-
-    # a = 9
-    #
-    # print(a)
-    # print()
-
-    # func1("слово 1")
-    # func1("слово 2")
+# import math
+# import math as m
 
 
 
-
-
-# s = 10
+# a = 9
+# b = 3
 #
-# func1(s)
+# print(m.sqrt(9))
 
-# def something(a):
-#     print("it does something: " + a)
-#
-#
-# def something_input():
+
+
+# def some_input():
 #     print("Type something: ")
 #     result = input()
-#     print("Your input: " + result)
-#     print(type(result))
+#     print("Your input: " + result + " of type " + str(type(result)))
 
 #     # n1 = sys.argv[1]
 #     # n2 = int(sys.argv[2])
@@ -57,4 +36,65 @@ if __name__ == '__main__':
 #     # print(type(n2))
 #     # something("TTTTT")
 #     something_input()
+
+# some_input()
+
+def ok():
+    print("ok")
+
+
+
+if __name__ == '__main__':
+    ok()
+
+
+
+
+
+    # a = 10
+    # person1 = f.Person()
+    #
+    # person1.age = 30
+    # person1.name = "Ivan"
+    # print(person1.age)
+    # print(person1.name)
+
+    # dog = f.Animal()
+    # print(dog.meow())
+    #
+    # cat = f.Animal()
+    # print(cat.bark())
+
+
+    # a = 9
+    # # print(a)
+    #
+    # f.func2(a)
+
+
+    # func1("слово 2")
+#
+#
+#
+#
+#
+# # s = 10
+# #
+# # func1(s)
+
+# def something(line,a,b):
+#     result=a+b
+#     print("New text: " + str(line) + " result: " + str(result))
+#     return result
+#
+#
+# a = something("aa",3,10)
+# print(a)
+
+# something("asdadaaa",3,7)
+
+
+# def something(a):
+#     print("it does something: " + a)
+
 
